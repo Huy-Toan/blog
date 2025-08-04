@@ -117,28 +117,73 @@ export default function Home() {
 
         {/* Title */}
         <h1 className="text-4xl font-bold mb-6 text-center text-gray-800">
-          Welcome to My Tech Blog
+          Explore the Future of Technology
         </h1>
 
         {/* Blog Posts */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          {[1, 2, 3].map((i) => (
-            <div key={i} className="bg-white rounded-lg shadow-md overflow-hidden">
-              <img
-                src={`https://source.unsplash.com/600x300/?tech,${i}`}
-                alt="Post thumbnail"
-                className="w-full h-48 object-cover"
-              />
-              <div className="p-4">
-                <h2 className="text-xl font-semibold mb-2">Post Title #{i}</h2>
-                <p className="text-gray-600 text-sm">
-                  This is a short description of blog post number {i}. It&apos;s a quick preview of the content.
-                </p>
-              </div>
+          {/* Post 1 */}
+          <div className="bg-white rounded-lg shadow-md overflow-hidden">
+            <img
+              src="https://mega.com.vn/media/news/2605_hinh-nen-cong-nghe-pc44.jpg"
+              alt="Tech Image 1"
+              className="w-full h-48 object-cover"
+            />
+            <div className="p-4">
+              <h2 className="text-xl font-semibold mb-2">The Rise of AI in Everyday Life</h2>
+              <p className="text-gray-600 text-sm">
+                From smart assistants to autonomous vehicles, artificial intelligence is transforming the way we live and work.
+              </p>
             </div>
-          ))}
+          </div>
+
+          {/* Post 2 */}
+          <div className="bg-white rounded-lg shadow-md overflow-hidden">
+            <img
+              src="https://mega.com.vn/media/news/2605_hinh-nen-cong-nghe-pc60.jpg"
+              alt="Tech Image 2"
+              className="w-full h-48 object-cover"
+            />
+            <div className="p-4">
+              <h2 className="text-xl font-semibold mb-2">Cybersecurity in the Digital Era</h2>
+              <p className="text-gray-600 text-sm">
+                As our digital footprint grows, so does the importance of keeping our data secure against evolving cyber threats.
+              </p>
+            </div>
+          </div>
+
+          {/* Post 3 */}
+          <div className="bg-white rounded-lg shadow-md overflow-hidden">
+            <img
+              src="https://img.lovepik.com/photo/40006/4475.jpg_wh860.jpg"
+              alt="Tech Image 3"
+              className="w-full h-48 object-cover"
+            />
+            <div className="p-4">
+              <h2 className="text-xl font-semibold mb-2">Blockchain Beyond Crypto</h2>
+              <p className="text-gray-600 text-sm">
+                Discover how blockchain technology is being applied across industries like healthcare, logistics, and finance.
+              </p>
+            </div>
+          </div>
+
+          {/* Post 4 */}
+          <div className="bg-white rounded-lg shadow-md overflow-hidden">
+            <img
+              src="https://demoda.vn/wp-content/uploads/2022/01/hinh-nen-cong-nghe-800x500.jpg"
+              alt="Tech Image 4"
+              className="w-full h-48 object-cover"
+            />
+            <div className="p-4">
+              <h2 className="text-xl font-semibold mb-2">The Evolution of Smart Devices</h2>
+              <p className="text-gray-600 text-sm">
+                From wearables to smart homes, explore how connected devices are shaping modern lifestyles.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </main>
   );
 }
+
