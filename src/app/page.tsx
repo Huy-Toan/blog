@@ -132,7 +132,7 @@ export default function Home() {
               <div className="p-4">
                 <h2 className="text-xl font-semibold mb-2">Post Title #{i}</h2>
                 <p className="text-gray-600 text-sm">
-                  This is a short description of blog post number {i}. It's a quick preview of the content.
+                  This is a short description of blog post number {i}. It&apos;s a quick preview of the content.
                 </p>
               </div>
             </div>
